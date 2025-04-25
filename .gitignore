@@ -1,35 +1,36 @@
-ore ##
-**/bin/
-**/obj/
+## Dotnet ##
+**/[Bb]in/
+**/[Oo]bj/
+**/packages/
 *.user
 *.suo
 *.userprefs
 *.cache
 *.vs/
-*.vscode/
+.vscode/
 *.swp
 *.sln.iml
 *.ncrunchproject
 *.dotCover
 *.resharper
 *.sln.docstates
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
 x64/
 x86/
-[Bb]in/
-[Oo]bj/
 [Ll]og/
 [Ll]ogs/
 
-# NuGet packages directory
+# NuGet
 .nuget/
-packages/
+.nuget/packages/
+**/packages/
 
 # Local development files
 appsettings.Development.json
-launchSettings.json
+**/Properties/launchSettings.json
 
 # Rider IDE
 .idea/
@@ -37,12 +38,12 @@ launchSettings.json
 # User-specific files
 *.user
 *.userosscache
-*.sln.docstates
 
-# MSTest test Results
+# Test results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
-# Azure Functions
+
+# Azure
 *.azurefunctions
 
 # Docker
@@ -53,3 +54,7 @@ docker-compose*.yml
 coverage*.xml
 *.coverage
 *.coverage.*
+
+# Folders to ignore
+**/.fake
+**/.DS_Store
