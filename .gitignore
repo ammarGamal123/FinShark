@@ -1,0 +1,55 @@
+ore ##
+**/bin/
+**/obj/
+*.user
+*.suo
+*.userprefs
+*.cache
+*.vs/
+*.vscode/
+*.swp
+*.sln.iml
+*.ncrunchproject
+*.dotCover
+*.resharper
+*.sln.docstates
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet packages directory
+.nuget/
+packages/
+
+# Local development files
+appsettings.Development.json
+launchSettings.json
+
+# Rider IDE
+.idea/
+
+# User-specific files
+*.user
+*.userosscache
+*.sln.docstates
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+# Azure Functions
+*.azurefunctions
+
+# Docker
+.dockerignore
+docker-compose*.yml
+
+# Coverage
+coverage*.xml
+*.coverage
+*.coverage.*
